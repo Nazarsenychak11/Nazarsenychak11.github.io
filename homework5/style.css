@@ -1,0 +1,181 @@
+
+
+body {
+    font-family: 'Arimo', Courier;
+}
+
+.table {
+    border: 20px solid #3a4965;
+    text-transform: uppercase;
+    border-collapse: initial;
+    margin: 0 auto;
+    color: #484848;
+}
+
+.row, .cell {
+    border: #ccc solid 1px;
+}
+
+.row {
+    height: 70px;
+}
+.row:last-child {
+    height: 110px;
+}
+.row:first-child {
+    height: 85px;
+}
+
+
+.row:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+.row:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+.pricing-plan {
+    background-color: #fff;
+}
+
+.cell {
+    width: 277px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+.cell:first-child {
+    width: 310px;
+}
+
+
+/* section */
+.standard {
+    border: transparent;
+    background-color: #89c331;
+}
+.ultimate {
+    border: transparent;
+    background-color: #f04a56;
+}
+.premium {
+    border: transparent;
+    background-color: #20807c;
+}
+
+/* first-sell */
+.choose {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.pricing {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* head */
+.standard, .premium {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.ultimate {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* price */
+.price-block, .bc-white {
+    background-color: #fff;
+}
+
+.dolar {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.cent {
+    vertical-align: top;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.price-month {
+    position: relative;
+    right: 33px;
+    font-size: 18px;
+}
+
+/* icons */
+.icon {
+    margin-right: 12px;
+    color: #848484;
+    font-size: 22px;
+}
+
+.icon-link-left, .icon-link-center {
+    color: #848484;
+    padding-left: 15px;
+}
+.icon-link-left {
+    padding-right: 20px;
+}
+
+/* text-item */
+
+.text-item {
+    color: #484848;
+    font-size: 17px;
+}
+
+/* hover for buttons */
+.btn-fot:hover {
+    font-weight: bold;
+    color: #000;
+    background-color: silver;
+    transition: 0.7s;
+}
+
+.icon-link-center {
+    padding: 20px 50px;
+}
+
+.icon:hover {
+    color: #000;
+    transition: 0.7s;
+}
+.hover:hover {
+    font-weight: bold;
+    color: #000;
+    transition: 0.7s;
+}
+
+/* buttons-fot */
+
+.btn-fot {
+    padding: 18px 47px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.black {
+    border: transparent;
+    background-color: #484848;
+}
+.green {
+    background-color: #89c331;
+}
+.red {
+    background-color: #f04a56;
+}
+.dark-green {
+    background-color: #20807c;
+}
+
+.grey-bc {
+    background-color: #e3e3e3;
+}
