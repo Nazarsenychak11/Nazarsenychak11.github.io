@@ -1,0 +1,194 @@
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 95%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 1028px) {
+	.offer__btn {
+		display: none;
+	}
+
+	.offer__btn-two {
+		display: block;
+		position: absolute;
+		left: 50%;
+		margin-left: -110px;
+	}
+
+	.block-one {
+		display: none;
+	}
+
+	.block-cell__two {
+		display: flex;
+	}
+
+	.block-cell__submit {
+		margin-left: 240px;
+	}
+
+	.block-adaptive {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.logo__name-footer {
+		position: absolute;
+		padding-top: 15px;
+		display: inline-block;
+	}
+
+	.block-two__list {
+		padding-left: 0px;
+		padding-right: 140px;
+	}
+
+	.line-footer {
+		margin-top: 24px;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.header {
+		box-shadow: 0px 1px 4px rgba(41, 47, 66, 0.05);
+	}
+	.heading {
+		display: block;
+	}
+
+	.user-menu {
+		display: block;
+		float: right;
+		padding-top: 35px;
+	}
+
+	.logo {
+		padding-top: 20px;
+		position: absolute;
+	}
+
+	.header-popup__logo {
+		margin-top: -50px;
+		position: relative;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.window {
+		display: block;
+	}
+
+	.list-menu {
+		width: 160px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.list-menu__mobile {
+		display: block;
+	}
+
+	.block-menu {
+		padding-top: 72px;
+	}
+
+	.main-block {
+		flex-direction: column;
+	}
+
+	.services {
+		width: 85%;
+	}
+
+	.services:hover {
+		width: 85%;
+	}
+
+	.services-more {
+		display: none;
+	}
+
+	.block-adaptive {
+		flex-direction: column;
+	}
+
+	.block-right {
+		margin-top: 24px;
+	}
+
+	.all-block {
+		flex-direction: column;
+	}
+
+	.offer {
+		margin: auto;
+		width: 276px;
+	}
+
+	.offer__title {
+		margin-top: 96px;
+		line-height: normal;
+	}
+
+	.footer {
+		padding-top: 0px;
+	}
+
+	.block-adaptive {
+		padding-top: 500px;
+	}
+
+	.block-info {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		width: 90%;
+	}
+	.services-name__mobile {
+		display: block;
+	}
+
+	.services-name {
+		display: none;
+	}
+
+	.block-two__offer {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.block-two__list {
+		padding-right: 40px;
+	}
+
+	.list__footer {
+		display: none;
+		padding-right: 0;
+	}
+
+	.block-two__offer span {
+		display: block;
+		font-size: 34px;
+		cursor: pointer;
+	}
+
+	.object {
+		text-align: left;
+	}
+
+	.menu-popup {
+		padding-top: 49px;
+	}
+
+	.menu-popup__item-last {
+		display: block;
+		margin-top: 145px;
+	}
+}
